@@ -50,6 +50,17 @@ table {
 }
 // reset end
 
+// REM Sizing
+html {
+    font-size: 12px;
+    @media (min-width: 800) {
+        font-size: 14px;
+    }
+    @media(min-width: 1200px){
+        font-size: 16px;
+    }
+}
+
 // Golbalk fonts import
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 // Navbar style start
@@ -79,7 +90,7 @@ hr{
         margin-right: 24px;
         a{
             font-family: 'Oswald', sans-serif;
-            font-size: 18px;
+            font-size: 1.75rem;
 
             &:hover{
                 background-color: hsla(0, 0, 64, 1)
@@ -138,7 +149,7 @@ hr{
                 // padding-top: 10px ;
                 span{
                     text-align: center;
-                    font-size: 24px;
+                    font-size: 2rem;
                     
                     &.text-orange{
                         color: orange;
